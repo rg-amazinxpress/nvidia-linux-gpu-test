@@ -1,0 +1,212 @@
+[    0.011315] Incomplete global flushes, disabling PCID
+[    0.029309] [mem 0x80800000-0xbfffffff] available for PCI devices
+[    0.167733] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[    0.167733] ACPI: bus type PCI registered
+[    0.167733] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.167733] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xc0000000-0xcfffffff] (base 0xc0000000)
+[    0.167733] PCI: MMCONFIG at [mem 0xc0000000-0xcfffffff] reserved in E820
+[    0.167733] PCI: Using configuration type 1 for base access
+[    0.252434] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.252435] PCI: Using E820 reservations for host bridge windows
+[    0.274004] ACPI: PCI Root Bridge [PC00] (domain 0000 [bus 00-fe])
+[    0.276756] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    0.277444] PCI host bridge to bus 0000:00
+[    0.277446] pci_bus 0000:00: root bus resource [bus 00-fe]
+[    0.277447] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.277448] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.277449] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.277450] pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000fffff window]
+[    0.277451] pci_bus 0000:00: root bus resource [mem 0x80800000-0xbfffffff window]
+[    0.277452] pci_bus 0000:00: root bus resource [mem 0x4000000000-0x7fffffffff window]
+[    0.277586] pci 0000:00:00.0: [8086:4668] type 00 class 0x060000
+[    0.277784] pci 0000:00:02.0: [8086:4680] type 00 class 0x038000
+[    0.277790] pci 0000:00:02.0: reg 0x10: [mem 0x7003000000-0x7003ffffff 64bit]
+[    0.277794] pci 0000:00:02.0: reg 0x18: [mem 0x4000000000-0x400fffffff 64bit pref]
+[    0.277797] pci 0000:00:02.0: reg 0x20: [io  0x5000-0x503f]
+[    0.277807] pci 0000:00:02.0: DMAR: Skip IOMMU disabling for graphics
+[    0.277823] pci 0000:00:02.0: reg 0x344: [mem 0x00000000-0x00ffffff 64bit]
+[    0.277825] pci 0000:00:02.0: VF(n) BAR0 space: [mem 0x00000000-0x06ffffff 64bit] (contains BAR0 for 7 VFs)
+[    0.277828] pci 0000:00:02.0: reg 0x34c: [mem 0x00000000-0x1fffffff 64bit pref]
+[    0.277829] pci 0000:00:02.0: VF(n) BAR2 space: [mem 0x00000000-0xdfffffff 64bit pref] (contains BAR2 for 7 VFs)
+[    0.278025] pci 0000:00:06.0: [8086:464d] type 01 class 0x060400
+[    0.278068] pci 0000:00:06.0: PME# supported from D0 D3hot D3cold
+[    0.278084] pci 0000:00:06.0: PTM enabled (root), 4ns granularity
+[    0.278579] pci 0000:00:08.0: [8086:464f] type 00 class 0x088000
+[    0.278586] pci 0000:00:08.0: reg 0x10: [mem 0x700412f000-0x700412ffff 64bit]
+[    0.278704] pci 0000:00:0a.0: [8086:467d] type 00 class 0x118000
+[    0.278710] pci 0000:00:0a.0: reg 0x10: [mem 0x7004110000-0x7004117fff 64bit]
+[    0.278725] pci 0000:00:0a.0: enabling Extended Tags
+[    0.278984] pci 0000:00:14.0: [8086:7a60] type 00 class 0x0c0330
+[    0.279002] pci 0000:00:14.0: reg 0x10: [mem 0x7004100000-0x700410ffff 64bit]
+[    0.279070] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[    0.279516] pci 0000:00:14.2: [8086:7a27] type 00 class 0x050000
+[    0.279536] pci 0000:00:14.2: reg 0x10: [mem 0x7004128000-0x700412bfff 64bit]
+[    0.279548] pci 0000:00:14.2: reg 0x18: [mem 0x700412e000-0x700412efff 64bit]
+[    0.279836] pci 0000:00:14.3: [8086:7a70] type 00 class 0x028000
+[    0.279857] pci 0000:00:14.3: reg 0x10: [mem 0x7004124000-0x7004127fff 64bit]
+[    0.279973] pci 0000:00:14.3: PME# supported from D0 D3hot D3cold
+[    0.280244] pci 0000:00:16.0: [8086:7a68] type 00 class 0x078000
+[    0.280265] pci 0000:00:16.0: reg 0x10: [mem 0x700412d000-0x700412dfff 64bit]
+[    0.280340] pci 0000:00:16.0: PME# supported from D3hot
+[    0.280806] pci 0000:00:17.0: [8086:7a62] type 00 class 0x010601
+[    0.280821] pci 0000:00:17.0: reg 0x10: [mem 0x82e00000-0x82e01fff]
+[    0.280831] pci 0000:00:17.0: reg 0x14: [mem 0x82e03000-0x82e030ff]
+[    0.280841] pci 0000:00:17.0: reg 0x18: [io  0x5090-0x5097]
+[    0.280850] pci 0000:00:17.0: reg 0x1c: [io  0x5080-0x5083]
+[    0.280860] pci 0000:00:17.0: reg 0x20: [io  0x5060-0x507f]
+[    0.280870] pci 0000:00:17.0: reg 0x24: [mem 0x82e02000-0x82e027ff]
+[    0.280911] pci 0000:00:17.0: PME# supported from D3hot
+[    0.281229] pci 0000:00:1c.0: [8086:7a38] type 01 class 0x060400
+[    0.281793] pci 0000:00:1c.2: [8086:7a3a] type 01 class 0x060400
+[    0.281887] pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+[    0.281922] pci 0000:00:1c.2: PTM enabled (root), 4ns granularity
+[    0.282415] pci 0000:00:1c.4: [8086:7a3c] type 01 class 0x060400
+[    0.282516] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+[    0.282557] pci 0000:00:1c.4: PTM enabled (root), 4ns granularity
+[    0.283054] pci 0000:00:1f.0: [8086:7a04] type 00 class 0x060100
+[    0.283421] pci 0000:00:1f.3: [8086:7a50] type 00 class 0x040300
+[    0.283463] pci 0000:00:1f.3: reg 0x10: [mem 0x7004120000-0x7004123fff 64bit]
+[    0.283514] pci 0000:00:1f.3: reg 0x20: [mem 0x7004000000-0x70040fffff 64bit]
+[    0.283614] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[    0.283805] pci 0000:00:1f.4: [8086:7a23] type 00 class 0x0c0500
+[    0.283829] pci 0000:00:1f.4: reg 0x10: [mem 0x700412c000-0x700412c0ff 64bit]
+[    0.283857] pci 0000:00:1f.4: reg 0x20: [io  0xefa0-0xefbf]
+[    0.284081] pci 0000:00:1f.5: [8086:7a24] type 00 class 0x0c8000
+[    0.284100] pci 0000:00:1f.5: reg 0x10: [mem 0xfe010000-0xfe010fff]
+[    0.284275] pci 0000:01:00.0: [144d:a804] type 00 class 0x010802
+[    0.284288] pci 0000:01:00.0: reg 0x10: [mem 0x82d00000-0x82d03fff 64bit]
+[    0.284418] pci 0000:00:06.0: PCI bridge to [bus 01]
+[    0.284421] pci 0000:00:06.0:   bridge window [mem 0x82d00000-0x82dfffff]
+[    0.284457] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.284460] pci 0000:00:1c.0:   bridge window [io  0x4000-0x4fff]
+[    0.284463] pci 0000:00:1c.0:   bridge window [mem 0x82100000-0x82afffff]
+[    0.284467] pci 0000:00:1c.0:   bridge window [mem 0x7002100000-0x7002afffff 64bit pref]
+[    0.284528] pci 0000:03:00.0: [8086:125c] type 00 class 0x020000
+[    0.284548] pci 0000:03:00.0: reg 0x10: [mem 0x82b00000-0x82bfffff]
+[    0.284572] pci 0000:03:00.0: reg 0x1c: [mem 0x82c00000-0x82c03fff]
+[    0.284697] pci 0000:03:00.0: PME# supported from D0 D3hot D3cold
+[    0.284827] pci 0000:00:1c.2: PCI bridge to [bus 03]
+[    0.284831] pci 0000:00:1c.2:   bridge window [mem 0x82b00000-0x82cfffff]
+[    0.284891] pci 0000:04:00.0: [10de:2230] type 00 class 0x030000
+[    0.284907] pci 0000:04:00.0: reg 0x10: [mem 0x81000000-0x81ffffff]
+[    0.284919] pci 0000:04:00.0: reg 0x14: [mem 0x6000000000-0x6fffffffff 64bit pref]
+[    0.284932] pci 0000:04:00.0: reg 0x1c: [mem 0x7000000000-0x7001ffffff 64bit pref]
+[    0.284941] pci 0000:04:00.0: reg 0x24: [io  0x3000-0x307f]
+[    0.284949] pci 0000:04:00.0: reg 0x30: [mem 0x82000000-0x8207ffff pref]
+[    0.284968] pci 0000:04:00.0: BAR 1: assigned to efifb
+[    0.285028] pci 0000:04:00.0: PME# supported from D0 D3hot
+[    0.285135] pci 0000:04:00.0: 63.012 Gb/s available PCIe bandwidth, limited by 16.0 GT/s PCIe x4 link at 0000:00:1c.4 (capable of 252.048 Gb/s with 16.0 GT/s PCIe x16 link)
+[    0.285181] pci 0000:04:00.1: [10de:1aef] type 00 class 0x040300
+[    0.285195] pci 0000:04:00.1: reg 0x10: [mem 0x82080000-0x82083fff]
+[    0.285335] pci 0000:00:1c.4: PCI bridge to [bus 04]
+[    0.285337] pci 0000:00:1c.4:   bridge window [io  0x3000-0x3fff]
+[    0.285340] pci 0000:00:1c.4:   bridge window [mem 0x81000000-0x820fffff]
+[    0.285344] pci 0000:00:1c.4:   bridge window [mem 0x6000000000-0x7001ffffff 64bit pref]
+[    0.286774] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[    0.286842] ACPI: PCI: Interrupt link LNKB configured for IRQ 1
+[    0.286908] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[    0.286974] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[    0.287040] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    0.287105] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    0.287171] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    0.287236] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    0.294010] pci 0000:04:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+[    0.294010] pci 0000:04:00.0: vgaarb: bridge control possible
+[    0.294010] pci 0000:04:00.0: vgaarb: setting as boot device
+[    0.294010] PCI: Using ACPI for IRQ routing
+[    0.317084] PCI: pci_cache_line_size set to 64 bytes
+[    0.317133] pci 0000:00:1f.5: can't claim BAR 0 [mem 0xfe010000-0xfe010fff]: no compatible bridge window
+[    0.331788] pci_bus 0000:00: max bus depth: 1 pci_try_num: 2
+[    0.331796] pci 0000:00:02.0: BAR 9: assigned [mem 0x4020000000-0x40ffffffff 64bit pref]
+[    0.331800] pci 0000:00:02.0: BAR 7: assigned [mem 0x4010000000-0x4016ffffff 64bit]
+[    0.331805] pci 0000:00:1f.5: BAR 0: assigned [mem 0x80800000-0x80800fff]
+[    0.331819] pci 0000:00:06.0: PCI bridge to [bus 01]
+[    0.331822] pci 0000:00:06.0:   bridge window [mem 0x82d00000-0x82dfffff]
+[    0.331825] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.331827] pci 0000:00:1c.0:   bridge window [io  0x4000-0x4fff]
+[    0.331830] pci 0000:00:1c.0:   bridge window [mem 0x82100000-0x82afffff]
+[    0.331833] pci 0000:00:1c.0:   bridge window [mem 0x7002100000-0x7002afffff 64bit pref]
+[    0.331838] pci 0000:00:1c.2: PCI bridge to [bus 03]
+[    0.331841] pci 0000:00:1c.2:   bridge window [mem 0x82b00000-0x82cfffff]
+[    0.331848] pci 0000:00:1c.4: PCI bridge to [bus 04]
+[    0.331849] pci 0000:00:1c.4:   bridge window [io  0x3000-0x3fff]
+[    0.331853] pci 0000:00:1c.4:   bridge window [mem 0x81000000-0x820fffff]
+[    0.331855] pci 0000:00:1c.4:   bridge window [mem 0x6000000000-0x7001ffffff 64bit pref]
+[    0.331860] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.331861] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.331862] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.331863] pci_bus 0000:00: resource 7 [mem 0x000e0000-0x000fffff window]
+[    0.331864] pci_bus 0000:00: resource 8 [mem 0x80800000-0xbfffffff window]
+[    0.331865] pci_bus 0000:00: resource 9 [mem 0x4000000000-0x7fffffffff window]
+[    0.331866] pci_bus 0000:01: resource 1 [mem 0x82d00000-0x82dfffff]
+[    0.331867] pci_bus 0000:02: resource 0 [io  0x4000-0x4fff]
+[    0.331868] pci_bus 0000:02: resource 1 [mem 0x82100000-0x82afffff]
+[    0.331869] pci_bus 0000:02: resource 2 [mem 0x7002100000-0x7002afffff 64bit pref]
+[    0.331870] pci_bus 0000:03: resource 1 [mem 0x82b00000-0x82cfffff]
+[    0.331871] pci_bus 0000:04: resource 0 [io  0x3000-0x3fff]
+[    0.331872] pci_bus 0000:04: resource 1 [mem 0x81000000-0x820fffff]
+[    0.331872] pci_bus 0000:04: resource 2 [mem 0x6000000000-0x7001ffffff 64bit pref]
+[    0.332191] pci 0000:04:00.1: D0 power state depends on 0000:04:00.0
+[    0.332202] PCI: CLS 64 bytes, default 64
+[    0.332259] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.346877] pcieport 0000:00:06.0: PME: Signaling with IRQ 122
+[    0.346955] pcieport 0000:00:1c.0: PME: Signaling with IRQ 123
+[    0.346967] pcieport 0000:00:1c.0: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[    0.347147] pcieport 0000:00:1c.2: PME: Signaling with IRQ 124
+[    0.347297] pcieport 0000:00:1c.4: PME: Signaling with IRQ 125
+[    0.347367] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.382569] ehci-pci: EHCI PCI platform driver
+[    0.382578] ohci-pci: OHCI PCI platform driver
+[    0.738866] pci 0000:00:1f.4: hash matches
+[    0.830822] nvme nvme0: pci function 0000:01:00.0
+[    0.901915] igc 0000:03:00.0: 4.000 Gb/s available PCIe bandwidth (5.0 GT/s PCIe x1 link)
+[    1.010655] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.011106]  i915_pci_probe+0x58/0x140 [i915]
+[    1.011138]  local_pci_probe+0x48/0x90
+[    1.011139]  pci_device_probe+0x119/0x200
+[    1.011154]  __pci_register_driver+0x68/0x70
+[    1.011155]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.011328] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.011770]  i915_pci_probe+0x58/0x140 [i915]
+[    1.011803]  local_pci_probe+0x48/0x90
+[    1.011804]  pci_device_probe+0x119/0x200
+[    1.011818]  __pci_register_driver+0x68/0x70
+[    1.011819]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.011987] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.012413]  i915_pci_probe+0x58/0x140 [i915]
+[    1.012445]  local_pci_probe+0x48/0x90
+[    1.012446]  pci_device_probe+0x119/0x200
+[    1.012460]  __pci_register_driver+0x68/0x70
+[    1.012461]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.012637] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.013078]  i915_pci_probe+0x58/0x140 [i915]
+[    1.013111]  local_pci_probe+0x48/0x90
+[    1.013112]  pci_device_probe+0x119/0x200
+[    1.013126]  __pci_register_driver+0x68/0x70
+[    1.013127]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.047576] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.047910]  i915_pci_probe+0x58/0x140 [i915]
+[    1.047944]  local_pci_probe+0x48/0x90
+[    1.047945]  pci_device_probe+0x119/0x200
+[    1.047960]  __pci_register_driver+0x68/0x70
+[    1.047961]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.048328]  i915_pci_probe+0x58/0x140 [i915]
+[    1.048360]  local_pci_probe+0x48/0x90
+[    1.048362]  pci_device_probe+0x119/0x200
+[    1.048375]  __pci_register_driver+0x68/0x70
+[    1.048376]  i915_register_pci_driver+0x23/0x30 [i915]
+[    1.048476] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    3.170711] input: MSI MYSTIC LIGHT  as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:1462:7E06.0001/input/input4
+[    3.174454] input: EVGA Z12 Gaming Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5.1/1-5.1:1.0/0003:3842:2612.0002/input/input5
+[    3.240647] input: EVGA Z12 Gaming Keyboard Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5.1/1-5.1:1.1/0003:3842:2612.0003/input/input6
+[    3.247865] input: EVGA Z12 Gaming Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5.1/1-5.1:1.1/0003:3842:2612.0003/input/input7
+[    3.312954] input: EVGA Z12 Gaming Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5.1/1-5.1:1.1/0003:3842:2612.0003/input/input8
+[    3.327988] input: EVGA Z12 Gaming Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5.1/1-5.1:1.2/0003:3842:2612.0004/input/input10
+[    3.399215] input: PixArt Dell MS116 USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/0003:413C:301A.0005/input/input12
+[  849.275499] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input13
+[  849.275527] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input14
+[  849.275547] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input15
+[  849.275568] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input16
+[  849.275584] input: HDA NVidia HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input17
+[  849.275599] input: HDA NVidia HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input18
+[  849.275611] input: HDA NVidia HDMI/DP,pcm=12 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input19

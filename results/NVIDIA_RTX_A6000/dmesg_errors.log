@@ -1,0 +1,103 @@
+[    0.108057] pid_max: default: 32768 minimum: 301
+[    0.167733] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[    0.276756] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    0.285135] pci 0000:04:00.0: 63.012 Gb/s available PCIe bandwidth, limited by 16.0 GT/s PCIe x4 link at 0000:00:1c.4 (capable of 252.048 Gb/s with 16.0 GT/s PCIe x16 link)
+[    0.294010] iommu: Default domain type: Translated 
+[    0.294010] NetLabel:  unlabeled traffic allowed by default
+[    0.332202] PCI: CLS 64 bytes, default 64
+[    0.346877] pcieport 0000:00:06.0: PME: Signaling with IRQ 122
+[    0.346955] pcieport 0000:00:1c.0: PME: Signaling with IRQ 123
+[    0.346967] pcieport 0000:00:1c.0: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+[    0.347147] pcieport 0000:00:1c.2: PME: Signaling with IRQ 124
+[    0.347297] pcieport 0000:00:1c.4: PME: Signaling with IRQ 125
+[    0.740153] RAS: Correctable Errors collector initialized.
+[    0.846065] nvme nvme0: 7/0/0 default/read/poll queues
+[    0.901915] igc 0000:03:00.0: 4.000 Gb/s available PCIe bandwidth (5.0 GT/s PCIe x1 link)
+[    0.999607] nouveau 0000:04:00.0: NVIDIA GA102 (b72000a1)
+[    1.010290] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/adls_dmc_ver2_01.bin (v2.1)
+[    1.010585] i915 0000:00:02.0: drm_WARN_ON(!intel_gmbus_is_valid_pin(dev_priv, pin))
+[    1.010592] WARNING: CPU: 2 PID: 309 at drivers/gpu/drm/i915/display/intel_gmbus.c:927 intel_gmbus_get_adapter+0x65/0xf0 [i915]
+[    1.010655] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.011270] i915 0000:00:02.0: drm_WARN_ON(!intel_gmbus_is_valid_pin(dev_priv, pin))
+[    1.011275] WARNING: CPU: 2 PID: 309 at drivers/gpu/drm/i915/display/intel_gmbus.c:927 intel_gmbus_get_adapter+0x65/0xf0 [i915]
+[    1.011328] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.011931] i915 0000:00:02.0: drm_WARN_ON(!intel_gmbus_is_valid_pin(dev_priv, pin))
+[    1.011934] WARNING: CPU: 2 PID: 309 at drivers/gpu/drm/i915/display/intel_gmbus.c:927 intel_gmbus_get_adapter+0x65/0xf0 [i915]
+[    1.011987] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.012581] i915 0000:00:02.0: drm_WARN_ON(!intel_gmbus_is_valid_pin(dev_priv, pin))
+[    1.012584] WARNING: CPU: 2 PID: 309 at drivers/gpu/drm/i915/display/intel_gmbus.c:927 intel_gmbus_get_adapter+0x65/0xf0 [i915]
+[    1.012637] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.029899] i915 0000:00:02.0: [drm] GuC firmware i915/tgl_guc_62.0.0.bin version 62.0 submission:disabled
+[    1.029913] i915 0000:00:02.0: [drm] GuC SLPC: disabled
+[    1.029918] i915 0000:00:02.0: [drm] HuC firmware i915/tgl_huc_7.9.3.bin version 7.9 authenticated:yes
+[    1.047494] i915 0000:00:02.0: drm_WARN_ON(!intel_gmbus_is_valid_pin(dev_priv, pin))
+[    1.047502] WARNING: CPU: 14 PID: 309 at drivers/gpu/drm/i915/display/intel_gmbus.c:927 intel_gmbus_get_adapter+0x65/0xf0 [i915]
+[    1.047576] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.047825]  drm_connector_register+0x99/0xe0 [drm]
+[    1.047841]  drm_connector_register_all+0x39/0x160 [drm]
+[    1.047853]  drm_modeset_register_all+0x6c/0x80 [drm]
+[    1.047864]  drm_dev_register+0x109/0x1f0 [drm]
+[    1.048070] #PF: error_code(0x0000) - not-present page
+[    1.048142]  ? drm_connector_register+0x99/0xe0 [drm]
+[    1.048158]  ? page_fault_oops+0x13b/0x170
+[    1.048160]  ? do_user_addr_fault+0x321/0x670
+[    1.048162]  ? exc_page_fault+0x77/0x170
+[    1.048163]  ? asm_exc_page_fault+0x27/0x30
+[    1.048250]  drm_connector_register+0x99/0xe0 [drm]
+[    1.048262]  drm_connector_register_all+0x39/0x160 [drm]
+[    1.048274]  drm_modeset_register_all+0x6c/0x80 [drm]
+[    1.048284]  drm_dev_register+0x109/0x1f0 [drm]
+[    1.048476] Modules linked in: i915(+) nouveau(+) i2c_algo_bit drm_ttm_helper ttm drm_kms_helper syscopyarea sysfillrect sysimgblt fb_sys_fops crct10dif_pclmul crc32_pclmul cec ghash_clmulni_intel sha256_ssse3 rc_core sha1_ssse3 aesni_intel crypto_simd mxm_wmi drm ahci xhci_pci nvme cryptd igc nvme_core libahci xhci_pci_renesas intel_pmt wmi video
+[    1.168669] nouveau 0000:04:00.0: DRM: VRAM: 49140 MiB
+[    1.168670] nouveau 0000:04:00.0: DRM: GART: 536870912 MiB
+[    1.168672] nouveau 0000:04:00.0: DRM: BIT table 'A' not found
+[    1.168673] nouveau 0000:04:00.0: DRM: BIT table 'L' not found
+[    1.168674] nouveau 0000:04:00.0: DRM: TMDS table version 2.0
+[    1.168675] nouveau 0000:04:00.0: DRM: DCB version 4.1
+[    1.168676] nouveau 0000:04:00.0: DRM: DCB outp 00: 04800f86 04600020
+[    1.168677] nouveau 0000:04:00.0: DRM: DCB outp 01: 04000f82 00020020
+[    1.168678] nouveau 0000:04:00.0: DRM: DCB outp 02: 04811f76 04600010
+[    1.168679] nouveau 0000:04:00.0: DRM: DCB outp 03: 04011f72 00020010
+[    1.168680] nouveau 0000:04:00.0: DRM: DCB outp 04: 02822f66 04600020
+[    1.168681] nouveau 0000:04:00.0: DRM: DCB outp 05: 02022f62 00020020
+[    1.168682] nouveau 0000:04:00.0: DRM: DCB outp 06: 02833f56 04600010
+[    1.168682] nouveau 0000:04:00.0: DRM: DCB outp 07: 02033f52 00020010
+[    1.168683] nouveau 0000:04:00.0: DRM: DCB conn 00: 02000046
+[    1.168684] nouveau 0000:04:00.0: DRM: DCB conn 01: 01000146
+[    1.168685] nouveau 0000:04:00.0: DRM: DCB conn 02: 00020246
+[    1.168686] nouveau 0000:04:00.0: DRM: DCB conn 03: 00010346
+[    1.168686] nouveau 0000:04:00.0: DRM: DCB conn 04: 00000460
+[    1.169082] nouveau 0000:04:00.0: DRM: MM: using COPY for buffer copies
+[    1.435237] nouveau 0000:04:00.0: DRM: allocated 2560x1440 fb: 0x200000, bo 00000000e7a915af
+[    1.436628] fbcon: nouveaudrmfb (fb0) is primary device
+[    1.979712] nouveau 0000:04:00.0: [drm] fb0: nouveaudrmfb frame buffer device
+[   57.724672] usb 1-5.2: device descriptor read/64, error -110
+[   58.124683] usb 1-5.2: device descriptor read/64, error -71
+[  847.084837] systemd[1]: systemd 249.11-0ubuntu3.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[  847.842500] systemd[1]: Queued start job for default target Graphical Interface.
+[  847.896424] systemd[1]: Starting Load Kernel Module drm...
+[  848.342861] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[  849.275499] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input13
+[  849.275527] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input14
+[  849.275547] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input15
+[  849.275568] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input16
+[  849.275584] input: HDA NVidia HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input17
+[  849.275599] input: HDA NVidia HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input18
+[  849.275611] input: HDA NVidia HDMI/DP,pcm=12 as /devices/pci0000:00/0000:00:1c.4/0000:04:00.1/sound/card1/input19
+[  849.333946] iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-gf-a0-66.ucode failed with error -2
+[  849.333985] iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-so-a0-gf-a0-65.ucode failed with error -2
+[ 1480.572757] usb 1-5.2: device descriptor read/64, error -110
+[ 2170.456796] usb 1-5.2: device descriptor read/64, error -71
+[ 2637.336829] usb 1-5.2: device descriptor read/64, error -71
+[ 2807.033688] audit: type=1400 audit(1759423162.148:52): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_apt_news" pid=4717 comm="(python3)"
+[ 2807.035063] audit: type=1400 audit(1759423162.148:53): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_esm_cache" pid=4719 comm="(python3)"
+[ 3359.725875] audit: type=1400 audit(1759448914.608:54): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_apt_news" pid=5400 comm="(python3)"
+[ 3359.729758] audit: type=1400 audit(1759448914.612:55): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_esm_cache" pid=5401 comm="(python3)"
+[ 3380.554835] audit: type=1400 audit(1759448935.436:56): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_apt_news" pid=5845 comm="(python3)"
+[ 3380.556171] audit: type=1400 audit(1759448935.436:57): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_esm_cache" pid=5846 comm="(python3)"
+[ 3537.340989] systemd[1]: systemd 249.11-0ubuntu3.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[ 3580.989398] systemd[1]: systemd 249.11-0ubuntu3.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[ 3716.254017] audit: type=1400 audit(1759449271.169:60): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_apt_news" pid=11383 comm="(python3)"
+[ 3716.254549] audit: type=1400 audit(1759449271.169:61): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_esm_cache" pid=11385 comm="(python3)"
+[ 3785.947760] audit: type=1400 audit(1759449340.863:62): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_apt_news" pid=12004 comm="(python3)"
+[ 3785.948977] audit: type=1400 audit(1759449340.863:63): apparmor="DENIED" operation="change_onexec" info="label not found" error=-2 profile="unconfined" name="ubuntu_pro_esm_cache" pid=12006 comm="(python3)"
