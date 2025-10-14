@@ -2,8 +2,8 @@
 set -e
 
 # --- Config ---
-export RMA_ID="RMA_#"
-export RESULTS="/mnt/rma_usb/results/RMA_${RMA_ID}"
+export ID="#"
+export RESULTS="/mnt/GPU-TEST/results/${ID}"
 mkdir -p "$RESULTS"
 
 # --- System Info ---
@@ -82,5 +82,5 @@ grep -qiE "GPU has fallen|Xid|panic" "$RESULTS/dmesg_errors.log" && VERDICT="FAI
 echo "VERDICT=${VERDICT}" | tee "$RESULTS/summary.txt"
 
 # --- Bundle Evidence ---
-tar -czf "$RESULTS/RMA_${RMA_ID}_evidence.tgz" -C "$RESULTS" .
-echo "Evidence saved: $RESULTS/RMA_${RMA_ID}_evidence.tgz"
+tar -czf "$RESULTS/${ID}_evidence.tgz" -C "$RESULTS" .
+echo "Evidence saved: $RESULTS/${ID}_evidence.tgz"
