@@ -2,7 +2,7 @@
 set -e
 
 # --- Config ---
-export RMA_ID="26169"
+export RMA_ID="RMA_#"
 export RESULTS="/mnt/rma_usb/results/RMA_${RMA_ID}"
 mkdir -p "$RESULTS"
 
